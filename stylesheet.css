@@ -77,46 +77,53 @@ li a:hover {
 }
 
 /* Content */
-.container .box {
-    margin: 5px;
-    display: table;
-    margin: auto 20px auto 20px;
-}
-
-.container .box .box-row {
-    display: table-row;
-}
-
-.container .box .box-cell {
-    display: table-cell;
+.box-row{
+    display: flex;
+    width: 100%;
+    justify-content: center;
 }
 
 .box-row h2 {
     text-align: center;
     font-family: 'Gemunu Libre', sans-serif;
-    font-size: 80px;
+    font-size: 60px;
+    margin-bottom: 10px;
 }
 
 .box-cell {
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    padding: 0px 10px 0px 10px;
-    font-size: 30px;
-    margin: 0px 100px 0px 10px;
-
+    font-size: 20px;
+    width: 25%;
+    margin: 46px;
+    padding: 0px 30px 30px 30px;
+    height: 650px;
+    height: fit-content;
+    border-radius: 5%;
 }
+
+.projects{
+    background-color: #55056d;
+}
+
+.projects h2{
+    font-family: 'Gemunu Libre', sans-serif;
+    font-size: 60px;
+    margin: 0px;
+    padding: 0px;
+} 
 
 /* Image */
 .profileimg{
-    width: 50%;
     border-radius: 100%;
-    margin-left: 25%;
-    height: 50%;
+    height: 40%;
+    margin: auto;
+    display: block;
+    box-shadow: rgba(0, 0, 0, 0.99) 0px 0px 15px;
 }
 
 /* Icons */
 .social-icons {
-    margin-left: 40%;
-    
+    text-align: center;
 }
 
 .social-icons a {
@@ -150,9 +157,8 @@ footer {
 
 .footer-right {
     float: left;
-    width: 800px;
+    width: 100%;
     margin-top: 40px;
-    margin-left: 15px;
     color: #fff;
 }
 
