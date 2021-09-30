@@ -15,6 +15,15 @@ app.get('/', (req, res) => {
 
 });
 
+app.get('/', (req, res) => {
+
+  fs.readFile('stylesheet.css', (err, data) => {
+      res.send(data);
+});
+
+});
+
+
 app.listen(PORT, () => {
 console.log(`Example app listening at http://localhost:${PORT}`);
 });
