@@ -14,14 +14,12 @@ app.get('/', (req, res) => {
     });
 
     fs.readFile('stylesheet.css', (err, data) => {
-      res.send(data);
-  });
+        res.send(data);
+    });
 
-    fs.readFile('images/oscar.png', (err, data) => {
-      res.send(data);
-  });
-
-
+    fs.readFile('images', (err, data) => {
+        res.send(data);
+    });
 });
 
 app.listen(PORT, () => {
