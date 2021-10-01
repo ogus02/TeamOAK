@@ -13,21 +13,14 @@ app.get('/', (req, res) => {
         res.send(data);
     });
 
-});
-
-app.get('/stylesheet.css', (req, res) => {
-
     fs.readFile('stylesheet.css', (err, data) => {
-        res.send(data);
-    });
-
-});
-
-app.get('/images/oscar.png', (req, res) => {
-
-  fs.readFile('images/oscar.png', (err, data) => {
       res.send(data);
   });
+
+    fs.readFile('images/oscar.png', (err, data) => {
+      res.send(data);
+  });
+
 
 });
 
