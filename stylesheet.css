@@ -108,6 +108,10 @@ li a:hover {
     background-color: #fff;
 }
 
+.box-cell :hover {
+    box-shadow: rgba(0, 0, 0, 0.99) 15px 15px 15px;
+}
+
 .projects {
     background-color: rgb(155, 136, 163);
     margin-top: 100px;

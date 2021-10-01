@@ -17,7 +17,7 @@ app.get('/', (req, res) => {
         res.send(data);
     });
 
-    fs.readFile('images', (err, data) => {
+    fs.readFile('images/oscar.png', (err, data) => {
         res.send(data);
     });
 });
