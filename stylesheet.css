@@ -22,7 +22,7 @@ body {
     overflow: hidden;
     display: flex;
     justify-content: center;
-    margin-right: 200px;
+    margin-right: 15%;
 }
 
 .navlist li {
@@ -36,23 +36,17 @@ body {
     color: white;
     padding: 14px 14px;
     width: 100px;
-    text-decoration: none;
     font-size: 20px;
-}
-
-li a:hover {
-    font-weight: bold;
-    color: #c303fe;
-}
-
-.navlinehover {
     transition: 0.3s ease;
     background: #2A2A2A;
     font-size: 20px;
     text-decoration: none;
-    border-bottom: 4px solid #2A2A2A;
-    padding: 20px 0;
-    margin: 0 20px;
+    overflow: auto;
+}
+
+.navbar a:hover {
+    font-weight: bold;
+    color: #c303fe;
 }
 
 .click-logo {
@@ -106,10 +100,11 @@ li a:hover {
     height: fit-content;
     border-radius: 5%;
     background-color: #fff;
+    transition: 0.3s ease;
 }
 
-.box-cell :hover {
-    box-shadow: rgba(0, 0, 0, 0.99) 15px 15px 15px;
+.box-cell:hover {
+    box-shadow: rgba(0, 0, 0, 0.99) 0px 0px 15px;
 }
 
 .projects {
@@ -184,8 +179,20 @@ footer {
 
 footer p {
     display: inline;
+    margin-left: 5%;
 }
 
-.copy {
-    margin-left: 200px;
+.footer-nav {
+    margin-left: 30%;
+}
+
+.footer-nav a {
+    color: grey;
+    text-decoration: none;
+}
+
+.footer-nav a:hover {
+    font-weight: bold;
+    color: #c303fe;
+    text-decoration: none;
 }
