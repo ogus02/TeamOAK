@@ -23,12 +23,12 @@ app.get('/stylesheet.css', (req, res) => {
 
 });
 
-const testFolder = './images';
+app.get('/images/oscar.png', (req, res) => {
 
-fs.readdir(testFolder, (err, files) => {
-    files.forEach(file => {
-        console.log(file);
-    });
+  fs.readFile('images/oscar.png', (err, data) => {
+      res.send(data);
+  });
+
 });
 
 app.listen(PORT, () => {
