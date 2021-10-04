@@ -6,6 +6,11 @@ body {
     margin: 0;
 }
 
+p {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 25px;
+}
+
 
 /* Navbar */
 
@@ -108,8 +113,7 @@ body {
 }
 
 .projects {
-    background-color: rgb(155, 136, 163);
-    margin-top: 100px;
+    margin-left: 10px;
 }
 
 .projects h2 {
@@ -124,7 +128,11 @@ body {
 .projects h3 {
     font-size: 50px;
     font-family: 'Gemunu Libre', sans-serif;
-    margin: auto auto auto 10px;
+    margin: auto;
+}
+
+.projects p {
+    font-size: 35px;
 }
 
 
