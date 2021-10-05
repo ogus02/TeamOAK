@@ -39,10 +39,9 @@
         color: whitesmoke;
         padding: 14px 14px;
         width: 100px;
-        font-size: 20px;
         transition: 0.3s ease;
         background: #2A2A2A;
-        font-size: 20px;
+        font-size: 25px;
         text-decoration: none;
         overflow: auto;
     }
@@ -79,6 +78,7 @@
     .burger-menu {
         display: none;
     }
+    
     /* Content */
     
     .box-row {
@@ -108,10 +108,9 @@
         transition: 0.3s ease;
     }
     
-    .boxcell h3,
-    p,
-    li {
+    .boxcell h3, p, li {
         font-family: 'Barlow Condensed', sans-serif;
+        font-size: 25px;
     }
     
     .box-cell:hover {
@@ -140,6 +139,7 @@
     .projects p {
         font-size: 35px;
     }
+
     /* Image */
     
     .profileimg {
@@ -149,6 +149,7 @@
         display: block;
         box-shadow: rgba(0, 0, 0, 0.99) 0px 0px 15px;
     }
+
     /* Icons */
     
     .social-icons {
@@ -177,6 +178,7 @@
     .social-icons .linkedin:hover {
         background-color: rgb(40, 103, 178);
     }
+
     /* Footer */
     
     footer {
@@ -207,62 +209,71 @@
         color: #c303fe;
         text-decoration: none;
     }
-    
-    @media only screen and (max-width: 1260px) {
-        .footer-nav {
-            margin-left: 5%;
-        }
-        .box-row {
-            flex-wrap: wrap;
-        }
-        .box-cell {
+
+/* Responsive */
+
+@media only screen and (max-width: 1260px) {
+    .footer-nav {
+        margin-left: 5%;
+    }
+    .box-row {
+        flex-wrap: wrap;
+    }
+    .box-cell {
             min-width: 400px;
-        }
     }
+}
     
-    @media only screen and (max-width: 1103px) {
-        .box-cell {
-            width: 50%;
-        }
+@media only screen and (max-width: 1103px) {
+    .box-cell {
+        width: 50%;
     }
+}
     
-    @media only screen and (max-width: 920px) {
-        .adress {
-            display: none;
-        }
-        .navbar {
-            display: none;
-        }
-        .burger-menu {
-            display: contents;
-            color: whitesmoke;
-        }
-        .burger-menu #burger-links {
-            display: none;
-            background-color: #2A2A2A;
-        }
-        .burger-menu a {
-            color: whitesmoke;
-            padding: 14px 16px;
-            text-decoration: none;
-            font-size: 20px;
-            display: block;
-            text-align: center;
-            font-weight: bold;
-        }
-        .burger-menu a.icon {
-            position: fixed;
-            color: black;
-            display: block;
-            font-size: 50px;
-            top: 0px;
-            right: 0px;
-            padding-top: 20px;
-        }
-        .sticky {
-            position: sticky;
-        }
-        .logo2 {
-            color: #2A2A2A;
-        }
+@media only screen and (max-width: 920px) {
+    .click-logo {
+        display: none;
     }
+    .navbar {
+        display: none;
+    }
+    .burger-menu {
+        display: contents;
+        color: whitesmoke;
+    }
+    .burger-menu #burger-links {
+        display: none;
+        background-color: #2A2A2A;
+    }
+    .burger-menu a {
+        color: whitesmoke;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 20px;
+        display: block;
+        text-align: center;
+        font-weight: bold;
+    }
+    .burger-menu a.icon {
+        position: fixed;
+        color: black;
+        display: block;
+        font-size: 50px;
+        top: 0px;
+        right: 0px;
+        padding-top: 20px;
+    }
+    .sticky {
+        position: sticky;
+    }
+    .logo2 {
+        color: #2A2A2A;
+    }
+    .adress, .footer-nav{
+        display: inline-block;
+    }
+}
+
+@media only screen and (max-width: 538px) {
+    /* footer pop och gör boxarna mindre */
+}
