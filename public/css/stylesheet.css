@@ -268,7 +268,9 @@ footer p {
     .burger-menu a.icon {
         color: black;
         display: block;
-        float: left;
         font-size: 50px;
+        position: fixed;
+        top: 0px;
+        right: 0px;
     }
 }
