@@ -1,8 +1,8 @@
 function myFunction() {
-    var x = document.getElementById("burger-links");
-    if (x.style.display === "block") {
-        x.style.display = "none";
+    const change = document.getElementById("burger-links");
+    if (change.style.display === "block") {
+        change.style.display = "none";
     } else {
-        x.style.display = "block";
+        change.style.display = "block";
     }
 }
