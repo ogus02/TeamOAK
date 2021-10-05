@@ -219,9 +219,6 @@ footer p {
 }
 
 @media only screen and (max-width: 1260px) {
-    body {
-        background-color: lightblue;
-    }
     .footer-nav {
         margin-left: 5%;
     }
@@ -243,10 +240,34 @@ footer p {
     .adress {
         display: none;
     }
-    .navlist {
+    .navbar {
         display: none;
     }
     .burger-menu {
+        display: contents;
+        width: 100%;
+        margin: auto;
+        height: 500px;
+        color: white;
+        border-radius: 10px;
+        overflow: hidden;
+        position: relative;
+    }
+    .burger-menu #burger-links {
+        display: none;
+    }
+    .burger-menu a {
+        color: black;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
         display: block;
+        text-align: center;
+    }
+    .burger-menu a.icon {
+        display: block;
+        float: left;
+        right: 0;
+        top: 0;
     }
 }
