@@ -108,6 +108,12 @@ p {
     transition: 0.3s ease;
 }
 
+.boxcell h3,
+p,
+li {
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
 .box-cell:hover {
     box-shadow: rgba(0, 0, 0, 0.99) 0px 0px 15px;
 }
