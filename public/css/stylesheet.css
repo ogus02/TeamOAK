@@ -1,17 +1,16 @@
     /* Main */
-    
     body {
         font-family: Arial, Helvetica, sans-serif, 'Gemunu Libre';
         background-color: #f4f4f4;
         margin: 0;
     }
-    
+
     p {
         font-family: 'Barlow Condensed', sans-serif;
         font-size: 25px;
     }
+
     /* Navbar */
-    
     .navbar {
         background-color: #2A2A2A;
         display: flex;
@@ -19,7 +18,7 @@
         min-height: 8vh;
         width: 100%;
     }
-    
+
     .navlist {
         margin: auto;
         overflow: hidden;
@@ -27,12 +26,12 @@
         justify-content: center;
         margin-right: 15%;
     }
-    
+
     .navlist li {
         float: right;
         list-style: none;
     }
-    
+
     .navlist a {
         display: inline-block;
         text-align: center;
@@ -45,16 +44,16 @@
         text-decoration: none;
         overflow: auto;
     }
-    
+
     .navbar a:hover {
         font-weight: bold;
         color: #c303fe;
     }
-    
+
     .active {
         border-bottom: 4px solid #c303fe;
     }
-    
+
     .logo {
         font-family: monospace;
         color: #c303fe;
@@ -65,31 +64,31 @@
         line-height: 34px;
         letter-spacing: 1px;
     }
-    
+
     .logo2 {
         color: whitesmoke;
     }
-    
+
     .burger-menu,
     .burger-btn-icon {
         display: none;
     }
+
     /* Content */
-    
     .box-row {
         display: flex;
         width: 100%;
         justify-content: center;
         margin-top: 50px;
     }
-    
+
     .box-row h2 {
         text-align: center;
         font-family: 'Gemunu Libre', sans-serif;
         font-size: 60px;
         margin-bottom: 10px;
     }
-    
+
     .box-cell {
         box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
         font-size: 20px;
@@ -101,22 +100,22 @@
         background-color: #fff;
         transition: 0.3s ease;
     }
-    
+
     .boxcell h3,
     p,
     li {
         font-family: 'Barlow Condensed', sans-serif;
         font-size: 25px;
     }
-    
+
     .box-cell:hover {
         box-shadow: rgba(0, 0, 0, 0.99) 0px 0px 15px;
     }
-    
+
     .projects {
         margin-left: 10px;
     }
-    
+
     .projects h2 {
         font-family: 'Gemunu Libre', sans-serif;
         font-size: 60px;
@@ -125,18 +124,18 @@
         text-align: center;
         font-size: 80px;
     }
-    
+
     .projects h3 {
         font-size: 50px;
         font-family: 'Gemunu Libre', sans-serif;
         margin: auto;
     }
-    
+
     .projects p {
         font-size: 35px;
     }
+
     /* Image */
-    
     .profileimg {
         border-radius: 100%;
         height: auto;
@@ -144,12 +143,12 @@
         display: block;
         box-shadow: rgba(0, 0, 0, 0.99) 0px 0px 15px;
     }
+
     /* Icons */
-    
     .social-icons {
         text-align: center;
     }
-    
+
     .social-icons a {
         display: inline-block;
         height: 5rem;
@@ -160,20 +159,20 @@
         text-align: center;
         font-size: 3rem;
     }
-    
+
     .social-icons i {
         padding-top: 15px;
     }
-    
+
     .social-icons .github:hover {
         background-color: rgb(128, 119, 134);
     }
-    
+
     .social-icons .linkedin:hover {
         background-color: rgb(40, 103, 178);
     }
+
     /* Footer */
-    
     footer {
         background: #2A2A2A;
         height: 100px;
@@ -182,27 +181,27 @@
         margin-top: 40px;
         color: #fff;
     }
-    
+
     footer p {
         display: inline;
         margin-left: 5%;
     }
-    
+
     .footer-nav {
         margin-left: 30%;
     }
-    
+
     .footer-nav a {
         color: grey;
         text-decoration: none;
     }
-    
+
     .footer-nav a:hover {
         font-weight: bold;
         color: #c303fe;
         text-decoration: none;
     }
-    
+
     .logo-footer {
         font-family: monospace;
         color: #c303fe;
@@ -213,33 +212,37 @@
         line-height: 34px;
         letter-spacing: 3px;
     }
+
     /* Responsive */
-    
     @media only screen and (max-width: 1260px) {
         .footer-nav {
             margin-left: 5%;
         }
+
         .box-row {
             flex-wrap: wrap;
         }
+
         .box-cell {
             min-width: 400px;
         }
     }
-    
+
     @media only screen and (max-width: 1103px) {
         .box-cell {
             width: 50%;
         }
     }
-    
+
     @media only screen and (max-width: 924px) {
         .logo-footer {
             display: none;
         }
+
         .navbar {
             display: none;
         }
+
         .burger-menu {
             display: block;
             color: whitesmoke;
@@ -250,12 +253,14 @@
             transition: height 2s;
             margin-bottom: 10px;
         }
+
         .burger-menu #burger-links {
             display: none;
             background-color: #2A2A2A;
             transition-property: display;
             transition-duration: 3s;
         }
+
         .burger-menu a {
             color: whitesmoke;
             padding: 14px 16px;
@@ -266,6 +271,7 @@
             font-weight: bold;
             font-family: 'Barlow Condensed', sans-serif;
         }
+
         .burger-menu a.icon {
             position: fixed;
             color: whitesmoke;
@@ -275,9 +281,11 @@
             right: 0px;
             padding-top: 25px;
         }
+
         .burger-top {
             background-color: #2A2A2A;
         }
+
         #burger-links a:hover {
             color: #c303fe;
         }
@@ -298,38 +306,45 @@
             margin-top: 20%;
         }
     }
-    
+
     @media only screen and (max-width: 590px) {
-        .footer-nav{
+        .footer-nav {
             display: none;
         }
+
         .adress {
-        margin-left: 22%;       
+            margin-left: 22%;
         }
 
-        .profileimg{
+        .profileimg {
             width: 200px;
         }
 
-        .box-cell{
+        .box-cell {
             margin-left: 0;
             margin-right: 0;
-            min-width:320px;
-            width:320px;
-            border-radius:0;
+            min-width: 320px;
+            width: 320px;
+            border-radius: 0;
         }
-        .box-cell h2{
+
+        .box-cell h2 {
             font-size: 50px;
         }
-        .box-cell h3,p,li{
+
+        .box-cell h3,
+        p,
+        li {
             font-size: 20px;
         }
+
         .social-icons a {
             height: 3.5rem;
             width: 3.5rem;
             font-size: 2.2rem;
         }
+
         .social-icons i {
             padding-top: 10px;
         }
-     }
+    }
