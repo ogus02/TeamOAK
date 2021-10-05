@@ -281,7 +281,7 @@
         }
     }
 
-    @media only screen and (max-width: 590px) {
+    @media only screen and (max-width: 600px) {
 
         .box-cell {
             margin-left: 0;
@@ -317,6 +317,8 @@
 
         .address {
             margin-left: 22%;
+            font-size: 25px;
+            display: inline-block;
         }
 
         .footer-nav {
