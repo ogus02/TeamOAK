@@ -78,6 +78,10 @@ p {
     color: white;
 }
 
+.burger-menu {
+    display: none;
+}
+
 
 /* Content */
 
@@ -239,5 +243,10 @@ footer p {
     .adress {
         display: none;
     }
-    .navbar {}
+    .navlist {
+        display: none;
+    }
+    .burger-menu {
+        display: block;
+    }
 }
