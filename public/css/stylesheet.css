@@ -223,4 +223,13 @@ footer p {
     }
 }
 
-1103 box cell width 920 footer och nav
+@media only screen and (max-width: 1103px) {
+    .box-cell {
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width: 920px) {
+    .footer {}
+    .navbar {}
+}
