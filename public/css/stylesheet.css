@@ -76,7 +76,8 @@
         color: whitesmoke;
     }
     
-    .burger-menu {
+    .burger-menu,
+    .burger-btn-icon {
         display: none;
     }
     /* Content */
@@ -234,8 +235,13 @@
             display: none;
         }
         .burger-menu {
-            display: contents;
+            display: block;
             color: whitesmoke;
+            background-color: #2A2A2A;
+            position: fixed;
+            top: 0px;
+            right: 0px;
+            width: 100%;
         }
         .burger-menu #burger-links {
             display: none;
@@ -245,24 +251,21 @@
             color: whitesmoke;
             padding: 14px 16px;
             text-decoration: none;
-            font-size: 20px;
+            font-size: 30px;
             display: block;
             text-align: center;
             font-weight: bold;
         }
         .burger-menu a.icon {
             position: fixed;
-            color: black;
+            color: whitesmoke;
             display: block;
             font-size: 50px;
             top: 0px;
             right: 0px;
-            padding-top: 20px;
+            padding-top: 25px;
         }
-        .sticky {
-            position: sticky;
-        }
-        .logo2 {
-            color: #2A2A2A;
+        .burger-top {
+            background-color: #2A2A2A;
         }
     }
