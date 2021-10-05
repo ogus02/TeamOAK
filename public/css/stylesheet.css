@@ -236,7 +236,6 @@
         .burger-menu {
             display: contents;
             color: whitesmoke;
-            border-radius: 10px;
         }
         .burger-menu #burger-links {
             display: none;
