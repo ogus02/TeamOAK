@@ -240,7 +240,6 @@
             background-color: #2A2A2A;
             position: fixed;
             top: 0px;
-            right: 0px;
             width: 100%;
         }
         .burger-menu #burger-links {
@@ -251,10 +250,11 @@
             color: whitesmoke;
             padding: 14px 16px;
             text-decoration: none;
-            font-size: 30px;
+            font-size: 40px;
             display: block;
             text-align: center;
             font-weight: bold;
+            font-family: 'Barlow Condensed', sans-serif;
         }
         .burger-menu a.icon {
             position: fixed;
@@ -267,5 +267,9 @@
         }
         .burger-top {
             background-color: #2A2A2A;
+        }
+        .burger-menu .active {
+            color: #c303fe;
+            border: none;
         }
     }
