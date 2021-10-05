@@ -1,276 +1,269 @@
-/* Main */
-
-body {
-    font-family: Arial, Helvetica, sans-serif, 'Gemunu Libre';
-    background-color: #f4f4f4;
-    margin: 0;
-}
-
-p {
-    font-family: 'Barlow Condensed', sans-serif;
-    font-size: 25px;
-}
-
-
-/* Navbar */
-
-.navbar {
-    background-color: #2A2A2A;
-    display: flex;
-    justify-content: space-around;
-    min-height: 8vh;
-    width: 100%;
-}
-
-.navlist {
-    margin: auto;
-    overflow: hidden;
-    display: flex;
-    justify-content: center;
-    margin-right: 15%;
-}
-
-.navlist li {
-    float: right;
-    list-style: none;
-}
-
-.navlist a {
-    display: inline-block;
-    text-align: center;
-    color: white;
-    padding: 14px 14px;
-    width: 100px;
-    font-size: 20px;
-    transition: 0.3s ease;
-    background: #2A2A2A;
-    font-size: 20px;
-    text-decoration: none;
-    overflow: auto;
-}
-
-.navbar a:hover {
-    font-weight: bold;
-    color: #c303fe;
-}
-
-.click-logo {
-    text-decoration: none;
-    color: #c303fe;
-}
-
-.active {
-    border-bottom: 4px solid #c303fe;
-}
-
-.logo {
-    font-family: monospace;
-    color: #c303fe;
-    font-size: 50px;
-    margin-left: 69px;
-    display: inline-block;
-    vertical-align: middle;
-    line-height: 34px;
-    letter-spacing: 3px;
-}
-
-.logo2 {
-    color: white;
-}
-
-.burger-menu {
-    display: none;
-}
-
-
-/* Content */
-
-.box-row {
-    display: flex;
-    width: 100%;
-    justify-content: center;
-    margin-top: 50px;
-}
-
-.box-row h2 {
-    text-align: center;
-    font-family: 'Gemunu Libre', sans-serif;
-    font-size: 60px;
-    margin-bottom: 10px;
-}
-
-.box-cell {
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    font-size: 20px;
-    width: 25%;
-    margin: 46px;
-    padding: 0px 30px 30px 30px;
-    height: 650px;
-    height: fit-content;
-    border-radius: 5%;
-    background-color: #fff;
-    transition: 0.3s ease;
-}
-
-.boxcell h3,
-p,
-li {
-    font-family: 'Barlow Condensed', sans-serif;
-}
-
-.box-cell:hover {
-    box-shadow: rgba(0, 0, 0, 0.99) 0px 0px 15px;
-}
-
-.projects {
-    margin-left: 10px;
-}
-
-.projects h2 {
-    font-family: 'Gemunu Libre', sans-serif;
-    font-size: 60px;
-    margin: 0px;
-    padding: 0px;
-    text-align: center;
-    font-size: 80px;
-}
-
-.projects h3 {
-    font-size: 50px;
-    font-family: 'Gemunu Libre', sans-serif;
-    margin: auto;
-}
-
-.projects p {
-    font-size: 35px;
-}
-
-
-/* Image */
-
-.profileimg {
-    border-radius: 100%;
-    height: auto;
-    margin: auto;
-    display: block;
-    box-shadow: rgba(0, 0, 0, 0.99) 0px 0px 15px;
-}
-
-
-/* Icons */
-
-.social-icons {
-    text-align: center;
-}
-
-.social-icons a {
-    display: inline-block;
-    height: 5rem;
-    width: 5rem;
-    background-color: rgb(22, 22, 22);
-    color: #fff !important;
-    border-radius: 100%;
-    text-align: center;
-    font-size: 3rem;
-}
-
-.social-icons i {
-    padding-top: 15px;
-}
-
-.social-icons .github:hover {
-    background-color: rgb(128, 119, 134);
-}
-
-.social-icons .linkedin:hover {
-    background-color: rgb(40, 103, 178);
-}
-
-
-/* Footer */
-
-footer {
-    background: #2A2A2A;
-    height: 100px;
-    float: left;
-    width: 100%;
-    margin-top: 40px;
-    color: #fff;
-}
-
-footer p {
-    display: inline;
-    margin-left: 5%;
-}
-
-.footer-nav {
-    margin-left: 30%;
-}
-
-.footer-nav a {
-    color: grey;
-    text-decoration: none;
-}
-
-.footer-nav a:hover {
-    font-weight: bold;
-    color: #c303fe;
-    text-decoration: none;
-}
-
-@media only screen and (max-width: 1260px) {
-    .footer-nav {
+    /* Main */
+    
+    body {
+        font-family: Arial, Helvetica, sans-serif, 'Gemunu Libre';
+        background-color: #f4f4f4;
+        margin: 0;
+    }
+    
+    p {
+        font-family: 'Barlow Condensed', sans-serif;
+        font-size: 25px;
+    }
+    /* Navbar */
+    
+    .navbar {
+        background-color: #2A2A2A;
+        display: flex;
+        justify-content: space-around;
+        min-height: 8vh;
+        width: 100%;
+    }
+    
+    .navlist {
+        margin: auto;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        margin-right: 15%;
+    }
+    
+    .navlist li {
+        float: right;
+        list-style: none;
+    }
+    
+    .navlist a {
+        display: inline-block;
+        text-align: center;
+        color: whitesmoke;
+        padding: 14px 14px;
+        width: 100px;
+        font-size: 20px;
+        transition: 0.3s ease;
+        background: #2A2A2A;
+        font-size: 20px;
+        text-decoration: none;
+        overflow: auto;
+    }
+    
+    .navbar a:hover {
+        font-weight: bold;
+        color: #c303fe;
+    }
+    
+    .click-logo {
+        text-decoration: none;
+        color: #c303fe;
+    }
+    
+    .active {
+        border-bottom: 4px solid #c303fe;
+    }
+    
+    .logo {
+        font-family: monospace;
+        color: #c303fe;
+        font-size: 50px;
+        margin-left: 69px;
+        display: inline-block;
+        vertical-align: middle;
+        line-height: 34px;
+        letter-spacing: 3px;
+    }
+    
+    .logo2 {
+        color: whitesmoke;
+    }
+    
+    .burger-menu {
+        display: none;
+    }
+    /* Content */
+    
+    .box-row {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        margin-top: 50px;
+    }
+    
+    .box-row h2 {
+        text-align: center;
+        font-family: 'Gemunu Libre', sans-serif;
+        font-size: 60px;
+        margin-bottom: 10px;
+    }
+    
+    .box-cell {
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        font-size: 20px;
+        width: 25%;
+        margin: 46px;
+        padding: 0px 30px 30px 30px;
+        height: 650px;
+        height: fit-content;
+        border-radius: 5%;
+        background-color: #fff;
+        transition: 0.3s ease;
+    }
+    
+    .boxcell h3,
+    p,
+    li {
+        font-family: 'Barlow Condensed', sans-serif;
+    }
+    
+    .box-cell:hover {
+        box-shadow: rgba(0, 0, 0, 0.99) 0px 0px 15px;
+    }
+    
+    .projects {
+        margin-left: 10px;
+    }
+    
+    .projects h2 {
+        font-family: 'Gemunu Libre', sans-serif;
+        font-size: 60px;
+        margin: 0px;
+        padding: 0px;
+        text-align: center;
+        font-size: 80px;
+    }
+    
+    .projects h3 {
+        font-size: 50px;
+        font-family: 'Gemunu Libre', sans-serif;
+        margin: auto;
+    }
+    
+    .projects p {
+        font-size: 35px;
+    }
+    /* Image */
+    
+    .profileimg {
+        border-radius: 100%;
+        height: auto;
+        margin: auto;
+        display: block;
+        box-shadow: rgba(0, 0, 0, 0.99) 0px 0px 15px;
+    }
+    /* Icons */
+    
+    .social-icons {
+        text-align: center;
+    }
+    
+    .social-icons a {
+        display: inline-block;
+        height: 5rem;
+        width: 5rem;
+        background-color: rgb(22, 22, 22);
+        color: #fff !important;
+        border-radius: 100%;
+        text-align: center;
+        font-size: 3rem;
+    }
+    
+    .social-icons i {
+        padding-top: 15px;
+    }
+    
+    .social-icons .github:hover {
+        background-color: rgb(128, 119, 134);
+    }
+    
+    .social-icons .linkedin:hover {
+        background-color: rgb(40, 103, 178);
+    }
+    /* Footer */
+    
+    footer {
+        background: #2A2A2A;
+        height: 100px;
+        float: left;
+        width: 100%;
+        margin-top: 40px;
+        color: #fff;
+    }
+    
+    footer p {
+        display: inline;
         margin-left: 5%;
     }
-    .box-row {
-        flex-wrap: wrap;
+    
+    .footer-nav {
+        margin-left: 30%;
     }
-    .box-cell {
-        min-width: 400px;
-    }
-}
-
-@media only screen and (max-width: 1103px) {
-    .box-cell {
-        width: 50%;
-    }
-}
-
-@media only screen and (max-width: 920px) {
-    .adress {
-        display: none;
-    }
-    .navbar {
-        display: none;
-    }
-    .burger-menu {
-        display: contents;
-        width: 100%;
-        margin: auto;
-        color: white;
-        border-radius: 10px;
-        overflow: hidden;
-        position: relative;
-    }
-    .burger-menu #burger-links {
-        display: none;
-        background-color: #2A2A2A;
-    }
-    .burger-menu a {
-        color: white;
-        padding: 14px 16px;
+    
+    .footer-nav a {
+        color: grey;
         text-decoration: none;
-        font-size: 20px;
-        display: block;
-        text-align: center;
+    }
+    
+    .footer-nav a:hover {
         font-weight: bold;
+        color: #c303fe;
+        text-decoration: none;
     }
-    .burger-menu a.icon {
-        color: black;
-        display: block;
-        font-size: 50px;
-        position: fixed;
-        top: 0px;
-        right: 0px;
+    
+    @media only screen and (max-width: 1260px) {
+        .footer-nav {
+            margin-left: 5%;
+        }
+        .box-row {
+            flex-wrap: wrap;
+        }
+        .box-cell {
+            min-width: 400px;
+        }
     }
-}
+    
+    @media only screen and (max-width: 1103px) {
+        .box-cell {
+            width: 50%;
+        }
+    }
+    
+    @media only screen and (max-width: 920px) {
+        .adress {
+            display: none;
+        }
+        .navbar {
+            display: none;
+        }
+        .burger-menu {
+            display: contents;
+            color: whitesmoke;
+            border-radius: 10px;
+        }
+        .burger-menu #burger-links {
+            display: none;
+            background-color: #2A2A2A;
+        }
+        .burger-menu a {
+            color: whitesmoke;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 20px;
+            display: block;
+            text-align: center;
+            font-weight: bold;
+        }
+        .burger-menu a.icon {
+            position: fixed;
+            color: black;
+            display: block;
+            font-size: 50px;
+            top: 0px;
+            right: 0px;
+            padding-top: 20px;
+        }
+        .sticky {
+            position: sticky;
+        }
+        .logo2 {
+            color: #2A2A2A;
+        }
+    }
