@@ -319,11 +319,24 @@
         .address {
             margin-left: 11%;
             margin-right: 11%;
+            margin-top: 25px;
             font-size: 25px;
             display: inline-block;
         }
 
         .footer-nav {
             display: none;
+        }
+
+        .projects h2 {
+            font-size: 60px;
+        }
+    
+        .projects h3 {
+            font-size: 40px;
+        }
+    
+        .projects p {
+            font-size: 25px;
         }
     }
