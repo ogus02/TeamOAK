@@ -234,6 +234,7 @@
 
         #burger-links {    
             background-color: #2A2A2A;
+            display: none;
         }
 
         .burger-menu a {
@@ -316,7 +317,8 @@
         }
 
         .address {
-            margin-left: 22%;
+            margin-left: 11%;
+            margin-right: 11%;
             font-size: 25px;
             display: inline-block;
         }
