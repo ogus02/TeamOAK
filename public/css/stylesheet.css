@@ -241,10 +241,13 @@
             position: fixed;
             top: 0px;
             width: 100%;
+            transition: height 2s;
         }
         .burger-menu #burger-links {
             display: none;
             background-color: #2A2A2A;
+            transition-property: display;
+            transition-duration: 3s;
         }
         .burger-menu a {
             color: whitesmoke;
