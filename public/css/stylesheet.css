@@ -247,7 +247,6 @@ footer p {
         display: contents;
         width: 100%;
         margin: auto;
-        height: 500px;
         color: white;
         border-radius: 10px;
         overflow: hidden;
@@ -255,19 +254,21 @@ footer p {
     }
     .burger-menu #burger-links {
         display: none;
+        background-color: #2A2A2A;
     }
     .burger-menu a {
-        color: black;
+        color: white;
         padding: 14px 16px;
         text-decoration: none;
-        font-size: 17px;
+        font-size: 20px;
         display: block;
         text-align: center;
+        font-weight: bold;
     }
     .burger-menu a.icon {
+        color: black;
         display: block;
         float: left;
-        right: 0;
-        top: 0;
+        font-size: 50px;
     }
 }
