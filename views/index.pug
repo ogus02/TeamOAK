@@ -5,24 +5,38 @@ block content
   p Welcome to #{title}
   .container
     .row
-      .col-sm.col
-        .card
-          .card-body
-            h4.card-title.text-center Oscar Gustafsson
-            p.card-text Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos quae officia, iure corrupti reiciendis totam provident quasi ut adipisci voluptatum veritatis nulla itaque. Animi tempora, aliquam voluptatum expedita numquam adipisci.
-            a.card-link(href='#') Link
-            a.card-link(href='#') Link
       .col-sm
-        .card
+        .card.border.border-5.m-2.shadow-sm.h-100
           .card-body
-            h4.card-title.text-center Adam Pousette
-            p.card-text Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente expedita tempora et blanditiis, ullam, veritatis eos illum maiores nemo id voluptatum officiis praesentium! Quam facilis adipisci expedita labore ad nam.
-            a.card-link(href='#') Link
-            a.card-link(href='#') Link
+            h3.card-title.text-center Oscar Gustafsson
+            img(src="/images/oscar.png", alt="En bild på Oscar Gustafsson." class="rounded-circle mx-auto d-block img-fluid")
+            p.card-text.p-3 Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos quae officia, iure corrupti reiciendis totam provident quasi ut adipisci voluptatum veritatis nulla itaque. Animi tempora, aliquam voluptatum expedita numquam adipisci.
+          .social-icons.text-center.d-flex.justify-content-evenly.mb-3
+            a.github(href='https://github.com/ogus02' target='blank').btn.btn-outline-dark
+              i.fab.fa-github.display-5
+            a.linkedin(href='https://www.linkedin.com/in/oscar-gustafsson-97b440200/' target='blank').btn.btn-outline-primary
+              i.fab.fa-linkedin.display-5
+            
+      .col-sm.hover-shadow
+        .card.border-5.m-2.shadow-sm.h-100.hover-shadow
+          .card-body.hover-shadow
+            h3.card-title.text-center Adam Pousette
+            img(src="/images/adam.jpg", alt="En bild på Oscar Gustafsson." class="rounded-circle mx-auto d-block hover-shadow img-fluid")
+            p.card-text.p-3 Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente expedita tempora et blanditiis, ullam, veritatis eos illum maiores nemo id voluptatum officiis praesentium! Quam facilis adipisci expedita labore ad nam.
+          .social-icons.text-center.d-flex.justify-content-evenly.mb-3
+            a.github(href='https://github.com/apousette' target='blank').btn.btn-outline-dark
+              i.fab.fa-github.display-5
+            a.linkedin(href='https://www.linkedin.com/in/adam-pousette-560204220/' target='blank').btn.btn-outline-primary
+              i.fab.fa-linkedin.display-5
+
       .col-sm
-        .card
+        .card.border-5.m-2.shadow-sm.h-100
           .card-body
-            h4.card-title.text-center Kasiem Saeed
-            p.card-text Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima modi, temporibus facere delectus maiores, repudiandae, dolores qui et nostrum doloribus optio. Nihil ducimus rem distinctio nisi quibusdam necessitatibus dolorum aperiam.
-            a.card-link(href='#') Link
-            a.card-link(href='#') Link
+            h3.card-title.text-center Kasiem Saeed
+            img(src="/images/kasiem.jpg", alt="En bild på Oscar Gustafsson." class="rounded-circle mx-auto d-block img-fluid")
+            p.card-text.p-3 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima modi, temporibus facere delectus maiores, repudiandae, dolores qui et nostrum doloribus optio. Nihil ducimus rem distinctio nisi quibusdam necessitatibus dolorum aperiam.
+          .social-icons.text-center.d-flex.justify-content-evenly.mb-3
+            a.github(href='https://github.com/Kasiem024' target='blank').btn.btn-outline-dark
+              i.fab.fa-github.display-5
+            a.linkedin(href='https://www.linkedin.com/in/kasiem-saeed-077168185/' target='blank').btn.btn-outline-primary
+              i.fab.fa-linkedin.display-5
