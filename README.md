@@ -1,6 +1,7 @@
 # TeamOAK
 
-This is the repo for the portfolio website for TEAM OAK. It is deployed on Netlify.
+This is the repo for the portfolio website for TEAM OAK. 
+It is deployed on [Heroku](https://hidden-springs-39964.herokuapp.com/).
 
 ## Members of OAK
 
