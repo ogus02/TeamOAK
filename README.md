@@ -1,8 +1,8 @@
 # TeamOAK
 
 This is the repo for the portfolio website for TEAM OAK. 
-It is deployed on [Heroku](https://hidden-springs-39964.herokuapp.com/).
+It is deployed on [Heroku](https://hidden-springs-39964.herokuapp.com/) and [Netlify](https://eloquent-minsky-884fdc.netlify.app/).
 
 ## Members of OAK
 
-[Oscar Gustafsson](https://github.com/ogus02), [Adam Pousette](https://github.com/apousette) och [Kasiem Saeed](https://github.com/Kasiem024)
+[Oscar Gustafsson](https://github.com/ogus02), [Adam Pousette](https://github.com/apousette) och [Kasiem Saeed](https://github.com/Kasiem024).
